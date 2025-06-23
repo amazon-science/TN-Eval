@@ -1,0 +1,27 @@
+CHECKBOX_MAPPING = {
+    "subjective-chief-complaint": "Chief complaint: The reason why the client is seeking therapy or a description of symptoms.",
+    "subjective-symptoms": "Symptoms: The client’s own description of their feelings, thoughts, and behaviors along with the severity.",
+    "subjective-history": "History: Relevant background information, including any past medical, therapy, or behavioral issues.",
+    "subjective-goals": "Client's Goals: What the client hopes to achieve through therapy.",
+    "subjective-homework": "Homework from previous sessions: Reviewing homework from the previous sessions and note client’s compliance.",
+    "subjective-quotes": "Quotes: Direct quotes from the client capturing their exact words and emotional tone.",
+    "objective-behavior": "Client’s observed behavior: The therapist's observations of the client's behavior, mood, appearance, and affect during the session.",
+    "objective-mental-status": "Mental Status: Observations regarding the client’s appearance, speech, thought processes, and orientation.",
+    "objective-assessment-tools": "Assessment Tools: Results from any standardized assessments or scales used during the session.",
+    "objective-therapy-activities": "Therapy Activities: Description of specific interventions or activities conducted during the session.",
+    "objective-interventions": "Interventions: Applied interventions and treatment plans (MI, Cognitive Restructuring, DBT, etc.). Focus on describing active interventions provided rather than passive ones.",
+    "assessment-diagnosis": "Diagnosis/Symptoms: Any formal diagnoses made based on DSM-5 criteria or other diagnostic tools.",
+    "assessment-triggers": "Identifying Triggers: Any triggers shown by the client.",
+    "assessment-progress": "Progress: Evaluation of the client's progress toward their therapeutic goals.",
+    "assessment-analysis": "Analysis: The therapist's interpretation of how the client's subjective report and objective observations relate to their overall condition.",
+    "assessment-response": "Response to interventions: The client's response to the provided interventions.",
+    "assessment-overall-progress": "Overall/high-level progress: Overall progress made by the client.",
+    "assessment-goals": "Treatment Goals: Specific, measurable, achievable, relevant, and time-bound (SMART) goals for the client. Adjustment to the treatment goals.",
+    "assessment-stages": "Stages of change: Client's stage of change (Pre-contemplation, contemplation, action, maintenance, etc.).",
+    "plan-interventions": "Future Interventions: Planned therapeutic techniques or strategies to be used in future sessions.",
+    "plan-follow-up": "Follow-Up: Scheduling of the next session and any referrals to other professionals if needed. Note the date for the next appointment if decided upon.",
+    "plan-adjustment": "Adjustment of medication/intervention: Any adjustments made to medications or interventions.",
+    "plan-homework": "Homework: Assignments or activities for the client to work on between the sessions.",
+}
+
+SOAP_SECTIONS = ["subjective", "objective", "assessment", "plan"]
